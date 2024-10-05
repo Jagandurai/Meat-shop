@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FRESH CATCH - 100% HALAL</title>
+
+  <link rel="shortcut icon" href="assets/images/new-logo.png" type="image/svg+xml">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+
+</head>
+
+<body id="top">
+
+
+  <header class="header" data-header>
+    <div class="container">
+
+
+      <h1>
+        <a href="index.html" class="logo">
+          <img src="assets/images/new-logo.png" alt="img-logo" style="vertical-align: middle; height: 80px;">
+        </a>
+      </h1>
+
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="nav-item">
+            <a href="index.html" class="navbar-link" data-nav-link>HOME</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="chicken.html" class="navbar-link" data-nav-link>CHICKEN</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="mutton.html" class="navbar-link" data-nav-link>MUTTON</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="desi.html" class="navbar-link" data-nav-link>DESI CHICKEN</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="quail.html" class="navbar-link" data-nav-link>QUAIL</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="contact.html" class="navbar-link" data-nav-link>CONTACT US</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-btn-group">
+
+        <button class="btn btn-hover" onclick="callNumber()">ORDER NOW</button>
+        <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <div class="slider">
+        <div class="slides">
+          <div class="slide active">
+            <img src="assets/images/slider1.png" alt="Image 1">
+          </div>
+          <div class="slide">
+            <img src="assets/images/slider2.png" alt="Image 2">
+          </div>
+          <div class="slide">
+            <img src="assets/images/slider3.png" alt="Image 3">
+          </div>
+          <div class="slide">
+            <img src="assets/images/slider4.png" alt="Image 2">
+          </div>
+          <div class="slide">
+            <img src="assets/images/slider5.png" alt="Image 3">
+          </div>
+          <div class="slide">
+            <img src="assets/images/slider6.png" alt="Image 2">
+          </div>
+          <div class="slide">
+            <img src="assets/images/slider7.png" alt="Image 3">
+          </div>
+          <div class="slide">
+            <img src="assets/images/slider8.png" alt="Image 3">
+          </div>
+          <div class="slide">
+            <img src="assets/images/slider9.png" alt="Image 3">
+          </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">←</button>
+        <button class="next" onclick="changeSlide(1)">→</button>
+      </div>
+
+
+<!-- ABOUT START -->
+
+
+      <section class="section section-divider gray about" id="about">
+
+        
+
+        <div class="container">
+      
+          <div class="about-banner">
+            <img src="./assets/images/about-banner.png" width="509" height="459" loading="lazy" alt="Burger with Drinks"
+              class="w-100 about-img">
+          </div>
+      
+          <div class="about-content">
+      
+            <h2 class="h2 section-title">
+              Welcome to "FRESH CATCH" Chicken Center !!!
+            </h2>
+      
+            <p class="section-text">
+              Fresh catch started in 2002, Fresh catch is one of the leading wholesaler and retailer of Broiler Chicken, Mutton,
+              Country Chicken & Quail in Chennai, We have rich experience in Boiler chicken. Our retail shop located in all over south
+              Chennai Adambakkam, Velachery, Madipakkam, Echankadu, Kovilambakkam & Pallikaranai. We supplying Hygienic chicken &
+              mutton to all Institutional, Caters, Hotel & Restaurant.
+            </p>
+      
+            <ul class="about-list">
+      
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+      
+                <span class="span">Fresh Chicken</span>
+              </li>
+            </ul>
+      
+            <button class="btn btn-hover" onclick="callNumber()">ORDER NOW</button>
+      
+          </div>
+      
+        </div>
+      </section>
+
+
+<!-- ABOUT END -->
+
+
+
+
+      <!-- 
+        - #PROMO
+      -->
+
+      <section class="section section-divider white promo">
+        <div class="container">
+
+          <ul class="promo-list has-scrollbar">
+            <li class="promo-item">
+              <div class="promo-card">
+                <div class="card-icon" style="display: flex; justify-content: center; align-items: center; margin: 0;">
+                    <img src="https://img.icons8.com/?size=100&id=101731&format=png&color=FD7E14" alt="Icon 1" width="60" height="60">
+                </div>
+          
+                <h3 class="h3 card-title">Chicken</h3>
+          
+                <p class="card-text">
+                  Chicken meat contains about two to three times as much poly - unsaturated fat as most types of red meat when measured
+                  as...
+                </p>
+                <div class="container">
+                  <a href="chicken.html" class="read-more" style="color: red; font-weight:550">Read More</a>
+                </div>
+
+                <img src="./assets/images/promo-1.png" width="300" height="300" loading="lazy" alt="chicken plate"
+                  class="w-100 card-banner" >
+
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+                <div class="card-icon" style="display: flex; justify-content: center; align-items: center; margin: 0;">
+                  <img src="https://img.icons8.com/?size=100&id=ZXwkniRT7z7Q&format=png&color=FD7E14" alt="Icon 1" width="60" height="60">
+                </div>
+            
+                <h3 class="h3 card-title">Mutton</h3>
+            
+                <p class="card-text">
+                  Mutton, the meat from adult sheep, provides a more gamey alternative to standard beef or pork. You can use mutton as you
+                  would...
+                </p>
+                <div class="container">
+                  <a href="mutton.html" class="read-more" style="color: red; font-weight:550">Read More</a>
+                </div>
+            
+                <img src="./assets/images/promo-2.png" width="300" height="300" loading="lazy" alt="goat plate"
+                  class="w-100 card-banner">
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+                <div class="card-icon" style="display: flex; justify-content: center; align-items: center; margin: 0;">
+                  <img src="https://img.icons8.com/?size=100&id=5UhTGaAkX5Bg&format=png&color=FD7E14" alt="Icon 1" width="60" height="60">
+                </div>
+            
+                <h3 class="h3 card-title">Desi Chicken</h3>
+            
+                <p class="card-text">
+                  For the freshest, most flavorful herbs around there's only one place to go: the country. This tasty feast features a
+                  wonderfully...
+                </p>
+                <div class="container">
+                  <a href="desi.html" class="read-more" style="color: red; font-weight:550">Read More</a>
+                </div>
+            
+                <img src="./assets/images/promo-3.png" width="300" height="300" loading="lazy" alt="goat plate"
+                  class="w-100 card-banner">
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+                <div class="card-icon" style="display: flex; justify-content: center; align-items: center; margin: 0;">
+                  <img src="https://img.icons8.com/?size=100&id=kI22iRAJUWCy&format=png&color=FD7E14" alt="Icon 1" width="60" height="60" >
+                </div>
+            
+                <h3 class="h3 card-title">Quail</h3>
+            
+                <p class="card-text">
+                Quail’s are packed with vitamins and minerals. Even with their small size, their nutritional value is three to four
+                times greater than...
+                </p>
+                <div class="container">
+                  <a href="quail.html" class="read-more" style="color: red; font-weight:550">Read More</a>
+                </div>
+            
+                <img src="./assets/images/promo-4.png" width="300" height="300" loading="lazy" alt="Quail plate"
+                  class="w-100 card-banner">
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #cta
+      -->
+
+
+      <section class="section section-divider white cta" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+      
+          <div class="cta-content">
+      
+            <h2 class="h2 section-title">
+              The Excellent Meat Of
+              <span class="span">Fresh Catch!</span>
+            </h2>
+      
+            <p class="section-text">
+              We pride ourselves on delivering only the freshest cuts, sourced from trusted farms that prioritize quality
+              and sustainability. Each piece of meat is carefully selected to ensure unmatched flavor and tenderness, so you can enjoy
+              every bite with confidence.
+            </p>
+      
+            <button class="btn btn-hover" onclick="callNumber()">ORDER NOW</button>
+          </div>
+      
+          <figure class="cta-banner">
+            <img src="./assets/images/cta-banner.png" width="700" height="637" loading="lazy" alt="Burger"
+              class="w-100 cta-img">
+      
+            <img src="./assets/images/sale-shape.png" width="216" height="226" loading="lazy" alt="get up to 50% off now"
+              class="abs-img scale-up-anim">
+          </figure>
+      
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #DELIVERY
+      -->
+
+      <section class="section section-divider gray delivery">
+        <div class="container">
+
+          <div class="delivery-content">
+
+            <h2 class="h2 section-title">
+              A Moments Of Delivered On <span class="span">Right Time</span> & Place
+            </h2>
+
+            <p class="section-text">
+              We also providing home delivery..
+             </p>
+
+            <button class="btn btn-hover" onclick="callNumber()">ORDER NOW</button>
+          </div>
+
+          <figure class="delivery-banner">
+            <img src="./assets/images/delivery-banner-bg.png" width="700" height="602" loading="lazy" alt="clouds"
+              class="w-100">
+
+            <img src="./assets/images/delivery-boy.svg" width="1000" height="880" loading="lazy" alt="delivery boy"
+              class="w-100 delivery-img" data-delivery-boy>
+          </figure>
+
+        </div>
+      </section>
+
+<!-- 
+    sliding images 
+    -->
+
+      <div class="container_12">
+        <div class="clients-container">
+          <div class="image-carousel">
+            <div class="sliders">
+              <img src="assets/images/client1.jpg" width="200" height="80" />
+              <img src="assets/images/client2.jpg" width="200" height="80" />
+              <img src="assets/images/client3.jpg" width="200" height="80" />
+              <img src="assets/images/client4.jpg" width="200" height="80" />
+              <img src="assets/images/client5.jpg" width="200" height="80" />
+              <img src="assets/images/client6.jpg" width="200" height="80" />
+              <img src="assets/images/client7.jpg" width="200" height="80" />
+              <img src="assets/images/client8.jpg" width="200" height="80" />
+              <img src="assets/images/client9.jpg" width="200" height="80" />
+              <img src="assets/images/client10.jpg" width="200" height="80" />
+              <img src="assets/images/client11.jpg" width="200" height="80" />
+              <img src="assets/images/client12.jpg" width="200" height="80" />
+              <img src="assets/images/client13.jpg" width="200" height="80" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section section-divider white testi">
+        <div class="container">
+
+          <p class="section-subtitle">Testimonials</p>
+
+          <h2 class="h2 section-title">
+            Our Customers <span class="span">Reviews</span>
+          </h2>
+
+          <ul class="testi-list has-scrollbar">
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-1.jpg" width="80" height="80" loading="lazy" alt="Robert William">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Nagarajan Somasundaram</h3>
+
+                    <p class="testi-title">Local Guide</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "Halal,good quality chicken and mutton. They have free home delivery too."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-2.jpg" width="80" height="80" loading="lazy" alt="Thomas Josef">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Arif Speed</h3>
+
+                    <p class="testi-title">Local Guide</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "Everything is good 😊 …" <br> "Hygienic and Fresh chicken"
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-3.jpg" width="80" height="80" loading="lazy" alt="Charles Richard">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">vinodharan vinoth</h3>
+
+                    <p class="testi-title">Local Guide</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "I would like to personally thank you for your outstanding
+                  meat."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+    <!-- 
+        - #FOOTER
+      -->
+    
+    <footer class="footer">
+    
+      <div class="footer-top">
+        <div class="container">
+    
+          <ul class="footer-list">
+    
+            <li>
+              <p class="footer-list-title">QUICK LINKS</p>
+            </li>
+    
+            <li>
+              <a href="index.html" class="footer-list-item">Home</a>
+            </li>
+    
+            <li>
+              <a href="chicken.html" class="footer-list-item">Chicken</a>
+            </li>
+    
+            <li>
+              <a href="mutton.html" class="footer-list-item">Mutton</a>
+            </li>
+    
+            <li>
+              <a href="desi.html" class="footer-list-item">Desi Chicken</a>
+            </li>
+    
+            <li>
+              <a href="quail.html" class="footer-list-item">Quail</a>
+            </li>
+    
+            <li>
+              <a href="contact.html" class="footer-list-item">Contact Us</a>
+            </li>
+    
+          </ul>
+    
+          <ul class="footer-list">
+    
+            <li>
+              <p class="footer-list-title">CONDITION</p>
+            </li>
+    
+            <li>
+              <a href="privacy.html" class="footer-list-item">Privacy Policy</a>
+            </li>
+    
+            <li>
+              <a href="return.html" class="footer-list-item">Return Policy</a>
+            </li>
+    
+            <li>
+              <a href="shipping.html" class="footer-list-item">Shipping Policy</a>
+            </li>
+    
+            <li>
+              <a href="terms&cond.html" class="footer-list-item">Terms & Conditions</a>
+            </li>
+    
+          </ul>
+    
+          <ul class="footer-list">
+    
+            <li>
+              <p class="footer-list-title">ADDRESS</p>
+            </li>
+    
+            <li>
+              <p class="footer-list-item">No.32, Kakkan Nager,<br>1'st Main Road,<br>Adambakkam, Chennai - 600 088
+              </p>
+            </li>
+    
+          </ul>
+    
+    
+          <ul class="footer-list">
+    
+            <li>
+              <p class="footer-list-title">Download Our App</p>
+            </li>
+            <li>
+              <a href="https://play.google.com/store/apps/details?id=pro.network.freshcatch" target="_blank">
+                <img alt="Download on Google Play" src="assets/images/androidstore.png">
+              </a>
+            </li>
+            <li>
+              <a href="https://play.google.com/store/apps/details?id=pro.network.freshcatch" target="_blank">
+                <img alt="Scan QR Code" width="100px" height="100px" src="assets/images/scan1.png">
+              </a>
+            </li>
+            <ul class="social-list">
+    
+              <li>
+                <a href="https://www.facebook.com/Freshcatchapp" target="_blank" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="https://www.instagram.com/fresh_catch_adam/" target="_blank" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </ul>
+    
+    
+    
+    
+        </div>
+      </div>
+    
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright-text">
+            <a href="#" class="copyright-link" style="color:red; font-weight:500">©Freshcatch</a> All Rights
+            Reserved.
+          </p>
+        </div>
+      </div>
+    
+    </footer>
+    
+    
+    
+    
+    
+    <!-- 
+        - #BACK TO TOP
+      -->
+    
+    <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+      <ion-icon name="chevron-up"></ion-icon>
+    </a>
+
+    <script src="assets/js/script.js" defer></script>
+    <script>
+      function callNumber() {
+        window.location.href = 'tel:9841778659';
+      }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    </body>
+    
+    </html>
